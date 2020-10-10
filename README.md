@@ -26,22 +26,26 @@ O projeto foi desenvolvido utilizando as tecnologias:
 ## Executar esse projeto no seu computador
 
 - Ter instalado o [Composer](https://getcomposer.org/Composer-Setup.exe)
+- Utilizar algum servidor apache como [Wamp](https://www.wampserver.com/en/) e [Xampp](https://www.apachefriends.org/pt_br/index.html)
 - Clonar Repositório: `git clone https://github.com/juliopurschel/crudLaravel.git`
 
 Ir até o local do arquivo através do terminal e executar:
 
 - Instalar dependências: `composer install`
 - Instalar dependências: `npm install` ou `yarn install`
-- Criar uma cópia do arquivo .env: `cp .env.example .env`
+
 - Gerar uma chave de criptografia do app: `php artisan key:generate`  
+- Renomer o arquivo: `.env.example` para `.env`
+
 
 :warning: Aqui você deve configurar seu **Banco de Dados** preenchendo corretamente o arquivo **`env`** com os dados do seu banco, *nesse deploy foi utilizado o postgre SQL* :warning:
 
 - [x] Banco de dados configurado, voltamos ao terminal.
-- Migrar tabelas: `php artisan migrate`
+- Migrar tabelas: `php artisan migrate`.. *se houver a notificação de **"Nothing to migrate"** usar* `php artisan migrate:refresh`
 - Iniciar o server: `php artisan serve`
+- Server iniciado em: *seulocalhost:suaporta/todos*
 
-Tudo Pronto parar rodar a aplicação ! :+1:
+Tudo Pronto parar usar a aplicação ! :+1:
 
 
 
