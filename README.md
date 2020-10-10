@@ -7,7 +7,8 @@ O projeto foi desenvolvido utilizando as tecnologias:
 
 - Laravel
 - HTML5 - CSS3
-- Jquery - Javascript
+- Boostrap 4
+- Jquery/Javascript
 
 
 ## Design
