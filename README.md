@@ -39,6 +39,7 @@ Ir até o local do arquivo através do terminal e executar:
 
 - [x] Banco de dados configurado, voltamos ao terminal.
 - Migrar tabelas: `php artisan migrate`
+- Iniciar o server: `php artisan serve`
 
 Tudo Pronto parar rodar a aplicação ! :+1:
 
