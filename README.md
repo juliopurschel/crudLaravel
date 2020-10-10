@@ -5,10 +5,10 @@
 
 O projeto foi desenvolvido utilizando as tecnologias:
 
-- ReactJS
-- HTML5 e CSS3
-- NodeJS
-- MongoDB
+- Laravel
+- HTML5 - CSS3
+- Jquery - Javascript
+
 
 ## Design
 
@@ -17,18 +17,10 @@ O projeto foi desenvolvido utilizando as tecnologias:
     <td colspan="2">Desktop</td>
  </tr>
   <tr>
-    <td><img src="./readmeimg/login.png" width=300 /></td><td><img src="./readme/Formulário.png" width=300 /></td>
-    <td><img src="./readmeimg/home.png" width=300 /></td><td><img src="./readme/Formulário.png" width=300 /></td>
-    <td><img src="./readmeimg/historic.png" width=300 /></td><td><img src="./readme/Formulário.png" width=300 /></td>
+    <td><img src="./public/assets.simplecrud.png" width=300 /></td>    
   </tr>
 </table>
 
-## Instalando e iniciando o MongoDB
-
-- Clique [aqui](https://www.mongodb.com/)para ir ao site do `MongoDB`
-- Crie o local: `C:\data\db`
-- Inicie o `mongod` na pasta raiz:\Program Files\MongoDB\Server\4.4\bin
-- Tudo Pronto!
 
 ## Executar esse projeto no seu computador
 
