@@ -26,7 +26,6 @@ O projeto foi desenvolvido utilizando as tecnologias:
 ## Executar esse projeto no seu computador
 
 - Ter instalado o [Composer](https://getcomposer.org/Composer-Setup.exe)
-- Utilizar algum servidor apache como [Wamp](https://www.wampserver.com/en/) e [Xampp](https://www.apachefriends.org/pt_br/index.html)
 - Clonar Repositório: `git clone https://github.com/juliopurschel/crudLaravel.git`
 
 Ir até o local do arquivo através do terminal e executar:
